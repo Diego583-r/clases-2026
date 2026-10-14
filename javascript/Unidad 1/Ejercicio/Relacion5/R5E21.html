@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 21</title>
+</head>
+
+<body>
+
+    <script>
+        /*         
+        Solicitar un número entero. 
+        Dibujar una pirámide creciente 
+        de asteriscos alineada a la derecha, 
+        con tantas filas como indique el número.  
+        Ejemplo:
+        ```
+            *
+           **
+          ***
+         ****
+        *****
+        ```
+        */
+
+        let numeroUsuario = Number(prompt("Introduce un número entero:"))
+        let nEspacios = 0
+        let nAsteriscos = 0
+        let cadenaEspacios = ""
+        let cadanaAsteriscos = ""
+        while (numeroUsuario < 0) {
+            numeroUsuario = Number(prompt("Error: Introduce un numero entero positivo"));
+        }
+
+        for (let i = 0; i < numeroUsuario; i++) {
+            cadenaEspacios = ""
+            cadanaAsteriscos = ""
+            nEspacios = numeroUsuario - i - 1
+            for (let j = 0; j < nEspacios; j++) {
+                cadenaEspacios += ' '
+            }
+
+            nAsteriscos = numeroUsuario - nEspacios
+            for (let j = 0; j < nAsteriscos; j++) {
+                cadanaAsteriscos += '*'
+            }
+
+            console.log(cadenaEspacios + cadanaAsteriscos);
+        }
+
+    </script>
+</body>
+
+</html>

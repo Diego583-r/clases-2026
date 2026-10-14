@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 17.-  
+        Solicitar números enteros hasta que se introduzca un número negativo. Al terminar, mostrar cuántos números no negativos se han introducido.
+        
+        *Ejemplo:*
+        ```
+        4
+        7
+        0
+        2
+        -1
+        Cantidad de números introducidos: 4
+        ```
+        *Solución:* */
+
+        let numeroEntero1 = Number(prompt("Introduce un numero entero."))
+        let calculo = 0;
+        while (numeroEntero1 >= 1) {
+            numeroEntero1 = Number(prompt("Introduce otro numero entero."))
+            calculo++;
+        }
+        if (numeroEntero1 < 0){
+            console.log("Has introducido un total de "+ calculo + " numeros positivos antes de poner uno negativo.");
+
+        }
+
+    </script>
+</body>
+
+</html>

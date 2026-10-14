@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let numeroUsuario = Number(prompt("Introduce un numero entero"))
+
+
+        while (numeroUsuario !== Math.floor(numeroUsuario)) {
+            alert("¡Error! El primer número debe ser entero.");
+            numeroUsuario = Number(prompt("Introduce nuevamente el número entero:"));
+        }
+
+        let siguienteMultiplo = 0;
+
+        if (numeroUsuario % 2 === 0) {
+            siguienteMultiplo = numeroUsuario + 2;
+        } else {
+            siguienteMultiplo = numeroUsuario + 1;  
+        }
+
+        console.log("El siguiente multiplo de 2 es: "+ siguienteMultiplo);
+        
+
+
+
+
+    </script>
+</body>
+
+</html>

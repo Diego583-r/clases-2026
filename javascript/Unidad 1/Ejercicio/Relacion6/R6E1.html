@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*         ### 1\. Calificaciones de estudiantes
+        
+                /* Crea un programa que reciba las calificaciones de N estudiantes. Se pedirán calificaciones hasta que el usuario introduzca `-1`. Calcula la media y muestra cuántos estudiantes han aprobado (nota mayor o igual que 5\) y cuántos han suspendido.
+                
+                **Ejemplo:**
+                
+                ```
+                Introduce la calificación del alumno 1: 4
+                Introduce la calificación del alumno 2: 1
+                Introduce la calificación del alumno 3: 10
+                Introduce la calificación del alumno 4: 8
+                Introduce la calificación del alumno 5: -1
+                
+                Hay 2 alumnos aprobados y 2 alumnos suspensos.
+                La calificación media es 5.75
+                ```
+                
+                &nbsp; */
+
+        let calificacionesUsuario = Number(prompt("Introduce la calificación de todos tus alumnos:"));
+        let sumaCalificaciones = 0; // Cambiado para acumular la suma total primero
+        let contadorAprobados = 0;
+        let contadorSuspensos = 0;
+        let cantidadAlumnos = 0;
+
+        while (calificacionesUsuario !== -1) {
+            cantidadAlumnos++;
+            sumaCalificaciones += calificacionesUsuario;
+
+            if (calificacionesUsuario >= 5) {
+                contadorAprobados++;
+            } else if (calificacionesUsuario < 5) {
+                contadorSuspensos++;
+            }
+            calificacionesUsuario = Number(prompt("Introduce la calificación de los demas alumnos:"));
+        }
+
+        let mediaCalificaciones = sumaCalificaciones / cantidadAlumnos;
+
+        console.log("La media de las calificaciones es: " + mediaCalificaciones);
+        console.log("Hay " + contadorAprobados + " alumnos aprobados y " + contadorSuspensos + " alumnos suspensos.");
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        const llamadaUsuario = Number(prompt("Ingrese la duración de la llamada en minutos:"));
+
+        if (llamadaUsuario < 0) {
+            alert("La duración debe ser un número positivo.");
+        } else {
+            let costoLlamada = 0;
+
+            if (llamadaUsuario > 3 && llamadaUsuario <= 10) {
+                costoLlamada = (llamadaUsuario - 3) * 0.50;
+            } else if (llamadaUsuario > 10) {
+                costoLlamada = 7 * 0.50 + (llamadaUsuario - 10) * 0.30;
+            }
+
+            console.log("El costo de la llamada es:", costoLlamada)
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 13.-  
+        Solicitar un número entero positivo. Contar cuántos números comprendidos entre 1 y ese número son múltiplos a la vez de 2 y de 3.
+        
+        *Ejemplo:*
+        ```
+        // Si el número vale 20:
+        Los múltiplos de 2 y 3 son 6, 12 y 18.
+        Cantidad: 3
+        ```
+        *Solución:* */
+
+        let numeroUsuario = Number(prompt("Introduce un numero entero positivo"))
+
+        while (numeroUsuario < 0) {
+            numeroUsuario = Number = prompt("Introduce un numero positivo")
+        }
+        let multiplos = ""
+        let contador = 0;
+        for (i = 1; i <= numeroUsuario; i++) {
+            if (i % 2 === 0 && i % 3 === 0) {
+                contador++
+                multiplos += i + ", "
+            }
+        }
+        console.log("Los multiplos de 2 y 3 son: " + multiplos);
+        console.log("Cantidad: ", contador);
+
+    </script>
+</body>
+
+</html>

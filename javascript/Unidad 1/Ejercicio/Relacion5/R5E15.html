@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*        ### 15.-  
+       Solicitar un número entero positivo. Calcular cuántos dígitos tiene sin convertir el número a texto.
+       
+       *Ejemplo:*
+       ```
+       // Si el número vale 58341:
+       El número tiene 5 dígitos.
+       ```
+       *Solución:* */
+
+        let numeroEntero = Number(prompt("Introduce tu numero entero positivo."))
+        let calculo = 0;
+
+        if (numeroEntero < 0) {
+            numeroEntero = numeroEntero * -1
+        }
+            while(numeroEntero >= 1){
+            numeroEntero = Math.floor(numeroEntero / 10);
+            calculo++;
+            }
+
+        console.log("Tu numero tiene " + calculo + " digitos");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const ANIO_BISIESTO = 4;
+        const DIVISIBLE_CIEN = 100;
+        const DIVISIBLE_CUATROCIENTOS = 400;
+
+        const anioUsuario = parseInt(prompt("Introduce el año que quieres calcular."))
+
+        if (anioUsuario % ANIO_BISIESTO == 0 && anioUsuario % DIVISIBLE_CIEN !== 0 || anioUsuario % DIVISIBLE_CUATROCIENTOS == 0) {
+            console.log("Tu año es bisiesto.");
+        }
+        else {
+            console.log("Tu año no es bisiesto.");
+
+        }
+
+    </script>
+</body>
+
+</html>

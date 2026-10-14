@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let numeroDosDigitos = Number(prompt("Introduce tu numero de dos digitos."));
+
+        if (numeroDosDigitos > -10 && numeroDosDigitos < 10) {
+            console.log("Solo numeros de dos cifras seran aceptados.");
+        }
+        else if (numeroDosDigitos > 99 || numeroDosDigitos < -99) {
+            console.log("Solo numeros de dos cifras seran aceptados.");
+        }
+        else {
+            if (numeroDosDigitos < 0) {
+                //numeroDosDigitos = numeroDosDigitos * -1;
+                numeroDosDigitos *= -1
+            }
+
+            let digitoUno = parseInt(numeroDosDigitos / 10);
+            let digitoDos = numeroDosDigitos - (digitoUno * 10);
+            const SUMA_DIGITOS = digitoUno + digitoDos;
+
+            console.log("La suma es", SUMA_DIGITOS);
+        }
+    </script>
+
+</body>
+
+</html>

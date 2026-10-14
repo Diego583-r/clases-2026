@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*
+        ### 2. Cajero automático
+        Crea un programa que simule un cajero. El usuario comienza con un saldo de 1000 € y puede retirar dinero sin que el saldo sea negativo. Si solicita más dinero del disponible, muestra un aviso y permite intentarlo de nuevo. El programa termina cuando el saldo es cero.
+        
+        **Ejemplo:**
+        ```text
+        Saldo: 1000 | Introduzca cantidad a retirar: 400
+        Saldo: 600 | Introduzca cantidad a retirar: 200
+        Saldo: 400 | Introduzca cantidad a retirar: 500
+        Saldo insuficiente.
+        Saldo: 400 | Introduzca cantidad a retirar: 400
+        Te has quedado sin saldo ¡A trabajar!
+        ``` */
+
+        let saldoActual = 1000;
+        let saldoRestante = 0;
+        let cantidadRetirar = Number(prompt("Tu saldo inicial: " + saldoActual + " | " + " Introduce la cantidad de dinero que deseas retirar."))
+
+        while (cantidadRetirar !== 0) {
+            if (cantidadRetirar <= saldoActual) {
+                saldoActual -= cantidadRetirar;
+                console.log("Retiro exitoso. Saldo restante: " + saldoActual);
+            } else {
+                alert("Fondos insuficientes. Tu saldo es: " + saldoActual);
+            }
+            cantidadRetirar = Number(prompt("Saldo restante: " + saldoActual + " | Introduzca cantidad a retirar (0 para salir):"));
+        }
+        console.log("Operación finalizada.");
+        console.log("Te has quedado sin saldo ¡A trabajar!");
+        console.log("Saldo final: " + saldoActual); 
+        
+    </script>
+</body>
+
+</html>

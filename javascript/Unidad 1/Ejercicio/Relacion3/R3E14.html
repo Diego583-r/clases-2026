@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let climaUsuario = prompt("Introduce el la temperatura del clima de hoy.")
+
+        if (climaUsuario < 0) {
+            console.log("Hace mucho frio");
+        }
+        else if (climaUsuario >= 0 && climaUsuario < 15) {
+            console.log("Hace frio");
+        }
+        else if (climaUsuario >= 15 && climaUsuario < 25) {
+            console.log("es un clima templado");
+        }
+        else if (climaUsuario >= 25 && climaUsuario < 35) {
+            console.log("Hace calor");
+        }
+        else if (climaUsuario >= 35) {
+            console.log("Hace mucho calor");
+        }
+        else {
+            console.log("El numero introducido no es valido");
+        }
+
+    </script>
+</body>
+</html>

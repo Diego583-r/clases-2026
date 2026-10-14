@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*         ### 26.-  
+        Solicitar dos números enteros. Dibujar un rectángulo relleno de asteriscos con tantas filas como indique el primer número y tantas columnas como indique el segundo.  
+        Ejemplo:
+        ```
+        *****
+        *****
+        *****
+        *****
+        *****
+        ```
+        *Solución:* */
+
+        let numeroFilas = Number(prompt("Introduce un número entero para las filas:"))
+        let numeroColumnas = Number(prompt("Introduce un número entero para las columnas:"))
+        let nAsteriscos = 0
+        let cadanaAsteriscos = ""
+        while (numeroFilas < 0) {
+            numeroFilas = Number(prompt("Error: Introduce un numero entero positivo para las filas"));
+        }
+        while (numeroColumnas < 0) {
+            numeroColumnas = Number(prompt("Error: Introduce un numero entero positivo para las columnas"));
+        }
+        for (let i = 0; i < numeroFilas; i++) {
+            cadanaAsteriscos = ""
+            nAsteriscos = numeroColumnas
+            for (let j = 0; j < nAsteriscos; j++) {
+                cadanaAsteriscos += '*'
+            }
+            console.log(cadanaAsteriscos);
+        }
+
+    </script>
+</body>
+
+</html>

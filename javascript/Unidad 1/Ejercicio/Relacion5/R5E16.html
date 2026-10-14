@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 16.-
+        Solicitar un número entero positivo. Mostrar el número con sus dígitos en orden inverso, sin convertirlo a texto.
+        
+        *Ejemplo:*
+        ```
+        // Si el número vale 4821:
+        1284
+        ```
+        *Solución:* */
+
+        let numeroEntero = Number(prompt("Introduce un numero entero positivo."))
+        let inverso = 0;
+
+        if (numeroEntero < 0) {
+            numeroEntero = numeroEntero * -1
+        }
+        while (numeroEntero > 0) {
+            let digito = numeroEntero % 10;
+            inverso = inverso * 10 + digito;
+            numeroEntero = Math.floor(numeroEntero / 10)
+        }
+        console.log("El numero inverso es: " + inverso);
+
+    </script>
+</body>
+
+</html>

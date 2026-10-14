@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let cantidadSegundos = Number(prompt("Introduce la cantidad de segundos:"))
+        let conversionHoras = parseInt(cantidadSegundos / 3600);
+        let conversionMinutos = parseInt((cantidadSegundos % 3600) / 60);
+        let conversionSegundos = cantidadSegundos % 60;
+
+        console.log("La cantidad de horas es: ", conversionHoras, "horas")
+        console.log("La cantidad de minutos es: ", conversionMinutos, "minutos")
+        console.log("La cantidad de segundos es: ", conversionSegundos, "segundos")
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*### 3. Repartir una cuenta y calcular propinas
+        Crea un programa para dividir cuentas y calcular propinas. Pide el precio de cada producto hasta que el usuario introduzca `0`. Después, pregunta qué porcentaje de propina se quiere dejar y entre cuántas personas se reparte la cuenta. Muestra el total sin propina, el total con propina y el precio por persona.
+        
+        **Ejemplo:**
+        ```text
+        Precio del producto 1: 10
+        Precio del producto 2: 20
+        Precio del producto 3: 15
+        Precio del producto 4: 35
+        Precio del producto 5: 0
+        
+        ¿Cuánta propina quieres dejar?: 5
+        ¿Cuántas personas sois?: 4
+        
+        Total sin propina: 80€
+        Total con propina del 5%: 84€
+        Precio por cabeza: 21€
+        ``` */
+
+        let cuentaUsuarios = Number(prompt("Precio del producto 1:")); // Pedimos el primer producto
+        let sumaProductos = 0;
+        let cantidadProductos = 1;
+
+        while (cuentaUsuarios !== 0) {
+            sumaProductos += cuentaUsuarios;
+            cantidadProductos++;
+            cuentaUsuarios = Number(prompt("Precio del producto " + cantidadProductos + ":"));
+        }
+
+        let cantidadPropina = Number(prompt("¿Cuánta propina quieres dejar?:"));
+        let personas = Number(prompt("¿Cuántas personas sois?:"));
+        let dineroPropina = sumaProductos * (cantidadPropina / 100);
+        // Calculamos los totales
+        let productosConPropina = sumaProductos + dineroPropina;
+        let precioPorPersona = productosConPropina / personas;
+        // Mostramos las variables
+        console.log("Total sin propina: " + sumaProductos + "€");
+        console.log("Total con propina del " + cantidadPropina + "%: " + productosConPropina + "€");
+        console.log("Precio por cabeza: " + precioPorPersona + "€");
+
+    </script>
+</body>
+
+</html>

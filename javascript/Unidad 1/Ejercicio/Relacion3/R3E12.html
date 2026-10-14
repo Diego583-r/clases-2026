@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let longitudUsuario = Number(prompt("Introduce longitud 1."))
+        let longitudUsuario2 = Number(prompt("Introduce longitud 2."))
+        let longitudUsuario3 = Number(prompt("Introduce longitud 3."))
+
+        if (longitudUsuario === longitudUsuario2 && longitudUsuario2 === longitudUsuario3) {
+            console.log("El triangulo es equilatero");
+        }
+        if (longitudUsuario !== longitudUsuario2 && longitudUsuario2 !== longitudUsuario3 && longitudUsuario !== longitudUsuario3) {
+            console.log("El triangulo es escaleno");
+        }
+        if (longitudUsuario === longitudUsuario2 || longitudUsuario2 === longitudUsuario3 || longitudUsuario === longitudUsuario3) {
+            console.log("El triangulo es isosceles");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        const PI = 3.1416;
+        let radioCirculo = parseFloat(prompt("Introduce el radio de tu circulo en metros:"))
+        if (radioCirculo < 0) {
+            console.log("Introduce un numero que no sea negativo.");
+        } else {
+            const areaCirculo = PI * (radioCirculo ** 2)
+            console.log("El area de tu circulo es:", areaCirculo, "metros cuadrados");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*         ### 25.-  
+        Solicitar un número entero. Dibujar una pirámide centrada de asteriscos que comience con uno y aumente de dos en dos en cada fila.  
+        Ejemplo:
+        ```
+             *
+            ***
+           *****
+          *******
+         *********
+        ***********
+        ```
+        *Solución:* */
+
+        let numeroUsuario = Number(prompt("Introduce un número entero:"))
+        let nAsteriscos = 0;
+        let espacios = 0;
+        let cadenaAsteriscos = "";
+
+        for (let i = 0; i < numeroUsuario; i++) {
+            cadenaAsteriscos = "";
+            nAsteriscos = 1 + i * 2;
+            espacios = numeroUsuario - (i + 1);
+
+            for (let j = 0; j < espacios; j++) {
+                cadenaAsteriscos += " ";
+            }
+            for (let j = 0; j < nAsteriscos; j++) {
+                cadenaAsteriscos += "*";
+            }
+            console.log(cadenaAsteriscos);
+        }
+
+    </script>
+</body>
+
+</html>

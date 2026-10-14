@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 11.-  
+        Solicitar dos números enteros. Mostrar por pantalla todos los números desde el segundo número introducido hasta el primer número introducido.  
+        Comprueba primero que el primero es menor que el segundo. */
+
+        let numeroUsuario = Number(prompt("Introduce el primer numero entero"))
+        let numeroUsuario2 = Number(prompt("Introduce el segundo"))
+
+        while (numeroUsuario >= numeroUsuario2 || numeroUsuario < 0 || numeroUsuario2 < 0) {
+            alert("¡Error! Ambos números deben ser positivos.");
+            numeroUsuario = Number(prompt("Introduce el primer número (debe ser positivo):"));
+            numeroUsuario2 = Number(prompt("Introduce el segundo número (debe ser positivo):"));
+        }
+
+        for (let i = numeroUsuario2; i >= numeroUsuario; i--) {
+            console.log(i);
+        }
+
+    </script>
+</body>
+
+</html>

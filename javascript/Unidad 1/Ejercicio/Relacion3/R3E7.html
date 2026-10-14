@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        const numeroUsuario1 = Number(prompt("Introduce el primer numero:"));
+        const numeroUsuario2 = Number(prompt("Introduce el segundo numero:"));
+        const operacion = prompt("Introduce la operacion (suma, resta, multiplicacion, division):");
+
+        if (operacion === "suma") {
+            const sumaNumeros = Number(numeroUsuario1 + numeroUsuario2);
+            console.log("Operacion de suma:", sumaNumeros);
+        } else if (operacion === "resta") {
+            const restaNumeros = Number(numeroUsuario1 - numeroUsuario2);
+            console.log("Operacion de resta:", restaNumeros);
+        } else if (operacion === "multiplicacion") {
+            const multiplicacionNumeros = Number(numeroUsuario1 * numeroUsuario2);
+            console.log("Operacion de multiplicacion:", multiplicacionNumeros);
+        } else if (operacion === "division") {
+            if (segundoNum != 0) {
+                const divisionNumeros = Number(numeroUsuario1 / numeroUsuario2);
+                console.log("Operacion de division:", divisionNumeros);
+            } else {
+                console.log("No es divisible entre 0.");
+            }
+        } else {
+            console.log("Operacion no valida");
+        }
+
+
+    </script>
+</body>
+
+</html>

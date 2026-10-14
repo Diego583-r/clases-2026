@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*         ### 28.-  
+        Solicitar un número entero. Dibujar una pirámide numérica alineada a la derecha en la que cada fila muestre una cuenta descendente hasta 1.  
+        Ejemplo:
+        ```
+            1
+           21
+          321
+         4321
+        54321
+        ```
+        *Solución:* */
+
+        let numeroUsuario = Number(prompt("Introduce un número entero:"))
+        let nNumeros = 0
+        let nEspacios = 0
+        let cadenaNumeros = ""
+        let cadenaEspacios = ""
+
+        while (numeroUsuario < 0) {
+            numeroUsuario = Number(prompt("Error: Introduce un numero entero positivo"));
+        }
+
+        for (let i = 0; i < numeroUsuario; i++) {
+            cadenaNumeros = ""
+            cadenaEspacios = ""
+
+            // 1. Primero calculamos cuántos números tocan en esta fila usando la 'i'
+            nNumeros = i + 1;
+
+            // 2. Ahora que sabemos los números, los espacios salen solos restando del total
+            nEspacios = numeroUsuario - nNumeros;
+
+            // Bucle para añadir los espacios
+            for (let j = 0; j < nEspacios; j++) {
+                cadenaEspacios += " "
+            }
+
+            // Bucle para añadir los números (del 1 al número que toque)
+            for (let j = 1; j <= nNumeros; j++) {
+                cadenaNumeros += j
+            }
+
+            console.log(cadenaEspacios + cadenaNumeros);
+        }
+
+
+
+    </script>
+</body>
+
+</html>

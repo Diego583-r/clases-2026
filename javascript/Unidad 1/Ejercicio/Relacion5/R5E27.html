@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script> 
+
+
+        /*         ### 27.-  
+        Solicitar un número entero. Dibujar una pirámide numérica alineada a la izquierda, añadiendo en cada fila el siguiente número.  
+        Ejemplo:
+        ```
+        1
+        12
+        123
+        1234
+        12345
+        ```
+        *Solución:* */
+
+        let numeroUsuario = Number(prompt("Introduce un número entero:"))
+        let nNumeros = 0
+        let cadenaNumeros = ""
+        while (numeroUsuario < 0) {
+            numeroUsuario = Number(prompt("Error: Introduce un numero entero positivo"));
+        }
+        for (let i = 0; i < numeroUsuario; i++) {
+            cadenaNumeros = ""
+            nNumeros = i + 1
+            for (let j = 1; j <= nNumeros; j++) {
+                cadenaNumeros += j
+            }
+            console.log(cadenaNumeros);
+        }
+
+    </script>
+</body>
+
+</html>

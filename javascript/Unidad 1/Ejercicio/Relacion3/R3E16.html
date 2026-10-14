@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let salarioAnualUsuario = Number(prompt("Introduce tu salario anual."))
+        if (salarioAnualUsuario < 10000){
+            console.log("Tienes un impuesto del 0%");
+        }
+        if (salarioAnualUsuario >= 10000 && salarioAnualUsuario < 20000){
+            console.log("Tienes un impuesto del 10%");
+        }
+        if (salarioAnualUsuario >= 20000 && salarioAnualUsuario < 40000){
+            console.log("Tienes un impuesto del 20%");
+        }
+        if (salarioAnualUsuario >= 40000){
+            console.log("Tienes un impuesto del 30%");
+        }
+        else {
+            console.log("El numero introducido no es valido");
+        }
+    </script>
+</body>
+</html>

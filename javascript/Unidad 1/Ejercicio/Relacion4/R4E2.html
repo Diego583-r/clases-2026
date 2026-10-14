@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const LIMITEMINIMO = 1;
+        const LIMITEMAXIMO = 10;
+
+        let numeroSecretoUsuario = Number(prompt("Introduce tu numero secreto, 1 al 10"));
+
+        if (numeroSecretoUsuario < LIMITEMINIMO || numeroSecretoUsuario > LIMITEMAXIMO) {
+            console.log("El numero tiene que ser de 1 al 10");
+            alert("El numero tiene que ser de 1 al 10");
+        } else {
+
+            let seguirIntentando = Number(prompt("adivina el numero secreto del 1 al 10."));
+
+            while (seguirIntentando !== numeroSecretoUsuario) {
+                console.log("Intenta de nuevo");
+                alert("Intenta de nuevo");
+                seguirIntentando = Number(prompt("Intenta de nuevo es de 1 al 10"));
+            }
+
+            alert("¡Correcto! Has adivinado el número.");
+            console.log("Correcto! Has adivinado el numero.");
+            
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        
+        /* ### 14.-  
+        Solicitar dos números enteros: una base y un exponente mayor o igual que 0. Calcular la potencia utilizando un bucle, sin utilizar `Math.pow()` ni el operador `**`. */
+
+        let numeroEntero = Number(prompt("Introduce el primer numero entero"))
+        let numeroExponente = Number(prompt("Introduce el segundo numero entero, este sera el exponente al primer numero"))
+        let resultado = 1;
+        for (let i = 0; i < numeroExponente; ++i) {
+        resultado *= numeroEntero 
+        }
+        console.log(resultado);
+    
+    </script>
+</body>
+
+</html>

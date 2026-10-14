@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let anguloUsuario = Number(prompt("Introduce un angulo en grados."))
+        if (anguloUsuario > 0 && anguloUsuario < 90) {
+            console.log("El angulo introducido es un angulo agudo");
+
+        }
+        else if (anguloUsuario === 90) {
+            console.log("El angulo introducido es un angulo recto");
+        }
+        else if (anguloUsuario > 90 && anguloUsuario < 180) {
+            console.log("El angulo introducido es un angulo obtuso");
+        }
+        else if (anguloUsuario === 180) {
+            console.log("El angulo introducido es un angulo llano");
+        }
+        else {
+            console.log("El angulo introducido no es valido");
+        }
+    </script>
+</body>
+</html>

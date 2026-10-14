@@ -1,0 +1,19 @@
+<style>
+
+p {
+   font-size:20px;
+   color:red;
+}
+
+</style>
+
+
+<p> Esto es un párrafo </p> 
+<img src=¨https://www.escuelaartegranada.com/images/logoMobile.png¨ />
+<a href=¨https://google.es¨> ENLACE </a>
+
+<script>
+
+alert(¨Esto es un mensaje¨);
+
+</script>

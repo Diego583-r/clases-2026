@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 5. Temperatura media semanal
+        Pide la temperatura de cada uno de los 7 días de la semana y calcula su media. Solo se admiten valores entre -20 y 50, ambos incluidos. Si el valor es incorrecto, vuelve a pedir la temperatura del mismo día.
+        
+        **Ejemplo:**
+        ```text
+        Introduce la temperatura del día 1: 32
+        Introduce la temperatura del día 2: 31
+        Introduce la temperatura del día 3: 28.5
+        Introduce la temperatura del día 4: 82
+        Temperatura incorrecta. Debe estar entre -20 y 50.
+        Introduce la temperatura del día 4: 12
+        Introduce la temperatura del día 5: 33
+        Introduce la temperatura del día 6: 35
+        Introduce la temperatura del día 7: 65
+        Temperatura incorrecta. Debe estar entre -20 y 50.
+        Introduce la temperatura del día 7: 30
+        La temperatura media de la semana es: 28.79
+        ``` */
+
+        const TEMPERATURAMINIMA = -20;
+        const TEMPERATURAMAXIMA = 50;
+        const DIAS_SEMANA = 7;
+
+        let contadorDias = 1;
+        let sumaTemperaturas = 0;
+        let temperaturaDiasSemana = 0; // La inicializamos en 0
+
+        // Usamos el bucle for para contar los 7 días (del 1 al 7)
+        for (let i = 1; i <= 7; i++) {
+
+            // Pedimos la temperatura del día actual por primera vez
+            temperaturaDiasSemana = Number(prompt("Introduce la temperatura del día " + i + ":"));
+
+            // Si la temperatura es incorrecta, este while la vuelve a pedir para el mismo día
+            while (temperaturaDiasSemana < TEMPERATURAMINIMA || temperaturaDiasSemana > TEMPERATURAMAXIMA) {
+                temperaturaDiasSemana = Number(prompt("Temperatura incorrecta. Debe estar entre -20 y 50. | Introduce la temperatura del día " + i + ":"));
+            }
+            // Cuando el while se rompe porque el dato es correcto, los sumaremos
+            sumaTemperaturas += temperaturaDiasSemana;
+        }
+        // Calculamos los totales usando los 7 dias de la semana
+        let promedioTemperaturas = sumaTemperaturas / DIAS_SEMANA;
+        // Mostramos la variable
+        console.log("La temperatura media de la semana es: " + promedioTemperaturas);
+
+    </script>
+</body>
+
+</html>

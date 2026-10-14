@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let numeroEntero = Number(prompt("Introduce un numero entero positivo"))
+
+        if (numeroEntero < 0) {
+            numeroEntero = numeroEntero * -1;
+        }
+        let textoSuma = "";
+        let sumaTotal = 0;
+        for (i = 1; i <= numeroEntero; i++) {
+            sumaTotal += i;
+            
+            if (i === numeroEntero) {
+                textoSuma += i;
+            } else {
+                textoSuma += i + " + ";
+            }
+        }
+        console.log(textoSuma + " =" + sumaTotal);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 18.-  
+        Solicitar números enteros hasta que se introduzca el número 0. Al terminar, mostrar el mayor de los números introducidos antes del 0.
+        
+        *Ejemplo:*
+        ```
+        4
+        9
+        3
+        7
+        0
+        El mayor número introducido es 9.
+        ```
+        *Solución:* */
+
+        let numeroEntero = Number(prompt("Introduce un numero."))
+        let numeroMayor = numeroEntero;
+        let calculo = 0;
+        while (numeroEntero != 0) {
+            calculo++;
+            if (numeroEntero > numeroMayor) {
+                numeroMayor = numeroEntero;
+            }
+            numeroEntero = Number(prompt("introduce otro numero."));
+        }
+        console.log("El numero mas grande que has introducido es " + numeroMayor + " de tus " + calculo + " numeros");
+
+    </script>
+</body>
+
+</html>
