@@ -31,7 +31,41 @@
         ¡Combustible insuficiente!
         ``` */
 
-        
+        const combustibleInicial = Number(prompt("Introduce el combustible inicial en litros: "))
+        const precioCombustible = Number(prompt("Precio del litro de combustible: "))
+        const consumoVehiculo100KM = Number(prompt("Introduce el consumo del vehiculo de litros cada 100 km: "))
+
+        let kmViaje = 0;
+        let precioViaje = 0;
+        let consumoViaje = 0;
+        let combustibleRestante = combustibleInicial
+        let contadorViaje = 0; 
+
+        while (combustibleRestante > 0) {
+            contadorViaje++
+            kmViaje = Number(prompt(" Introduce los kilómetros del viaje " + contadorViaje + ":"))
+            consumoViaje = kmViaje * consumoVehiculo100KM / 100
+
+            if (combustibleRestante >= consumoViaje) {
+                precioViaje = consumoViaje * precioCombustible
+                combustibleRestante = combustibleRestante - consumoViaje
+
+                alert("Precio del viaje: " + precioViaje + "€")
+                alert("Consumo viaje : " + consumoViaje + " litros")
+                alert("Combustible restante: " + combustibleRestante + " litros")
+            }
+
+            else {
+                alert("¡Combustible insuficiente!")
+            }
+        }
+
+
+
+
+
+
+
 
     </script>
 </body>
