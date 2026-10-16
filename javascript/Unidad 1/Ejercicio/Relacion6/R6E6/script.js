@@ -24,7 +24,7 @@ let numeroUno = Number(prompt("Introduce el primer numero: "))
 let numeroDos = Number(prompt("Introduce el segundo numero: "))
 let operacionMatematica = prompt("Introduce la operación: ")
 
-while (operacionMatematica > 0) {
+while (numeroUno > 0 || numeroDos > 0) {
 
     let resultadoSuma = numeroUno + numeroDos
     console.log("El resultado de " + numeroUno + " + " + numeroDos + " es " + resultadoSuma);

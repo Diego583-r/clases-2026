@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 7\. Contar apariciones de un dígito
+        
+        Pide un número entero no negativo y un dígito (una cifra entre 0 y 9). Cuenta cuántas veces aparece el dígito en el número. Si el número es negativo o incorrecto, muestra un aviso y vuelve a pedir el número. Si el dígito no es válido, vuelve a pedirlo. El programa termina cuando se escribe `SALIR`.
+        
+        **Ejemplo:**
+        
+        ```
+        Introduce el número: 124548
+        Introduce el dígito: 4
+        El dígito 4 aparece 2 veces en el número 124548
+        
+        Introduce el número: -58
+        ¡Número incorrecto!
+        
+        Introduce el número: 5855
+        Introduce el dígito: 58
+        ¡Dígito incorrecto!
+        Introduce el dígito: 5
+        El dígito 5 aparece 3 veces en el número 5855
+        
+        Introduce el número: SALIR
+        ``` */
+
+        let numeroEnteroPositivo = "";
+        let digitoRandom = 0;
+        let contadorDigitoEspecifico = 0;
+        let numeroOriginal = "";
+
+        numeroEnteroPositivo = prompt("Introduce el número: ");
+        while (numeroEnteroPositivo != "SALIR") {
+
+            // 1. VALIDACIÓN DEL NÚMERO
+            if (numeroEnteroPositivo < 0 || numeroEnteroPositivo === "") {
+                console.log("¡Número incorrecto!");
+                alert("¡Dígito incorrecto!");
+                numeroEnteroPositivo = prompt("Introduce el número: ");
+            }
+            else {
+                digitoRandom = Number(prompt("Introduce el dígito: "));
+                while (digitoRandom < 0 || digitoRandom > 9 || digitoRandom % 1 !== 0) {
+                    console.log("¡Dígito incorrecto!");
+                    alert("¡Dígito incorrecto!");
+                    digitoRandom = Number(prompt("Introduce el dígito: "));
+                }
+                contadorDigitoEspecifico = 0;
+                numeroOriginal = numeroEnteroPositivo;
+                let copiaNumero = Number(numeroEnteroPositivo);
+                if (copiaNumero === 0 && digitoRandom === 0) {
+                    contadorDigitoEspecifico = 1;
+                }
+                while (copiaNumero > 0) {
+                    let ultimaCifra = copiaNumero % 10;
+                    if (ultimaCifra === digitoRandom) {
+                        contadorDigitoEspecifico++;
+                    }
+                    copiaNumero = Math.floor(copiaNumero / 10);
+                }
+                alert("El dígito " + digitoRandom + " aparece " + contadorDigitoEspecifico + " veces en el número " + numeroOriginal);
+                console.log("El dígito " + digitoRandom + " aparece " + contadorDigitoEspecifico + " veces en el número " + numeroOriginal);
+                numeroEnteroPositivo = prompt("Introduce el número: ");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
