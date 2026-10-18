@@ -32,7 +32,58 @@
            - Si ninguno puede repetir, muestra `Va a sobrar comida`.  
            - Si pueden repetir uno o dos, muestra `¡A comer!`. */
 
-        
+        let nombreHobbit1 = prompt("Introduce el nombre del primer hobbit:");
+        let edadHobbit1 = Number(prompt("Introduce la edad del primer hobbit:"));
+        let puedeRepetir1 = false;
+
+        let nombreHobbit2 = prompt("Introduce el nombre del segundo hobbit:");
+        let edadHobbit2 = Number(prompt("Introduce la edad del segundo hobbit:"));
+        let puedeRepetir2 = false;
+
+        let nombreHobbit3 = prompt("Introduce el nombre del tercer hobbit:");
+        let edadHobbit3 = Number(prompt("Introduce la edad del tercer hobbit:"));
+        let puedeRepetir3 = false;
+
+        let sumaEdades = edadHobbit1 + edadHobbit2 + edadHobbit3;
+
+        if (edadHobbit1 < 33 || sumaEdades % 2 === 0) {
+            puedeRepetir1 = true;
+        }
+
+        // Hobbit 2: Menor de 33 O la suma es múltiplo de 3
+        if (edadHobbit2 < 33 || sumaEdades % 3 === 0) {
+            puedeRepetir2 = true;
+        }
+
+        // Hobbit 3: Menor de 33 O la suma es múltiplo de 5
+        if (edadHobbit3 < 33 || sumaEdades % 5 === 0) {
+            puedeRepetir3 = true;
+        }
+
+        // 4. MOSTRAR RESULTADO INDIVIDUAL
+        console.log("El hobbit " + nombreHobbit1 + " puede repetir: " + puedeRepetir1 + " (edad: " + edadHobbit1 + ")");
+        console.log("El hobbit " + nombreHobbit2 + " puede repetir: " + puedeRepetir2 + " (edad: " + edadHobbit2 + ")");
+        console.log("El hobbit " + nombreHobbit3 + " puede repetir: " + puedeRepetir3 + " (edad: " + edadHobbit3 + ")");
+
+        let totalQuePuedenRepetir = 0;
+
+        if (puedeRepetir1 === true) {
+            totalQuePuedenRepetir++;
+        }
+        if (puedeRepetir2 === true) {
+            totalQuePuedenRepetir++;
+        }
+        if (puedeRepetir3 === true) {
+            totalQuePuedenRepetir++;
+        }
+
+        if (totalQuePuedenRepetir === 3) {
+            console.log("Toca repartir la comida");
+        } else if (totalQuePuedenRepetir === 0) {
+            console.log("Va a sobrar comida");
+        } else {
+            console.log("¡A comer!");
+        }
 
     </script>
 </body>
