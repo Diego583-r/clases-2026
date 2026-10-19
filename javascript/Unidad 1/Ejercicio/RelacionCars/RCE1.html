@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* ### 1. **¡Rayo McQueen en boxes!**
+        
+        Crea un programa que simule el paso por boxes de *N* coches. El programa pedirá el nombre del coche y el tiempo que ha tardado en el pit stop. Finaliza cuando se introduzca `"FIN"` como nombre.
+        
+        Al final, muestra:
+        
+        * El coche más rápido
+        * El número total de coches
+        * El tiempo promedio
+        
+        #### 🧪 Ejemplo:
+        
+        ```
+        Nombre del coche 1: Rayo
+        Tiempo en boxes: 5.4
+        Nombre del coche 2: Mate
+        Tiempo en boxes: 7.1
+        Nombre del coche 3: Luigi
+        Tiempo en boxes: 4.9
+        Nombre del coche 4: FIN
+        
+        Total de coches: 3
+        Tiempo medio: 5.8 segundos
+        El coche más rápido fue Luigi con 4.9 segundos
+        ``` */
+
+        let cocheUsuario = prompt("Introduce el coche 1: ");
+        let cocheMasRapido = "";
+        let tiempoMasRapido = Infinity;
+        let totalCoches = 0;
+        let tiempoTotal = 0;
+
+        while (cocheUsuario !== "FIN") {
+            let tiempoUsuario = parseFloat(prompt("Introduce el tiempo del coche " + (totalCoches + 1) + ": "));
+
+            totalCoches++;
+            tiempoTotal += tiempoUsuario;
+
+            if (tiempoUsuario < tiempoMasRapido) {
+                tiempoMasRapido = tiempoUsuario;
+                cocheMasRapido = cocheUsuario;
+            }
+            cocheUsuario = prompt("Introduce el coche " + (totalCoches + 1) + ": " + " || INTRODUCE FIN PARA TERMINAR");
+        }
+        let tiempoPromedio = tiempoTotal / totalCoches;
+        console.log("Total de coches: " + totalCoches);
+        console.log("Tiempo medio: " + tiempoPromedio + " segundos");
+        console.log("El coche más rápido fue " + cocheMasRapido + " con " + tiempoMasRapido + " segundos");
+    </script>
+</body>
+
+</html>

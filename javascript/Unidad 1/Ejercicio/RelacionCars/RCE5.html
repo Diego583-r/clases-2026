@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* ### 5. **¡Luigi cuenta neumáticos!**
+        
+        Luigi tiene una tienda de neumáticos. Cada cliente pide un número de ruedas (entre 1 y 4). El programa continúa hasta que se introduzca un 0. Al final:
+        
+        * Muestra cuántos neumáticos se vendieron en total
+        * Cuántos clientes atendió
+        * Cuántos pidieron 4 neumáticos (cambio completo)
+        
+        > Usa `while` y condiciones para contar.
+        
+        #### 🧪 Ejemplo:
+        
+        ```
+        Cliente 1: 2 neumáticos
+        Cliente 2: 4 neumáticos
+        Cliente 3: 1 neumático
+        Cliente 4: 4 neumáticos
+        Cliente 5: 0
+        
+        Total de clientes: 4
+        Neumáticos vendidos: 11
+        Clientes con cambio completo: 2
+        ``` */
+
+        let totalNeumaticos = 0;
+        let totalClientes = 0;
+        let clientesCambioCompleto = 0;
+
+        let neumaticosCliente = parseInt(prompt("Introduce el numero de neumaticos que necesitas (1-4) o 0 para terminar:"))
+
+        while (neumaticosCliente !== 0) {
+            totalNeumaticos += neumaticosCliente;
+            totalClientes++;
+
+            if (neumaticosCliente === 4) {
+                clientesCambioCompleto++;
+            }
+
+            neumaticosCliente = parseInt(prompt("Introduce el numero de neumaticos que necesitas (1-4) o 0 para terminar:"))
+        }
+        console.log("Total de clientes: " + totalClientes);
+        console.log("Neumáticos vendidos: " + totalNeumaticos);
+        console.log("Clientes con cambio completo: " + clientesCambioCompleto);
+
+    </script>
+</body>
+
+</html>
