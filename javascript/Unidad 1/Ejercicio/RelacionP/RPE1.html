@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* <!-- 🚗 Relación Práctica: Cars - ¡Nuevos Retos de Entrenamiento!
+        
+        1. Control de velocidad en Radiador SpringsEl Sheriff necesita controlar la velocidad de los coches que transitan por la calle principal. El programa debe pedir la velocidad de varios coches una por una hasta que se introduzca un -1 para finalizar. La velocidad máxima permitida es 45 km/h.Al final, muestra:Total de coches registrados.Cuántos coches superaron el límite de velocidad.La velocidad máxima registrada.🧪 Ejemplo:Velocidad coche 1: 40
+        Velocidad coche 2: 52
+        Velocidad coche 3: 45
+        Velocidad coche 4: 68
+        Velocidad coche 5: -1
+        
+        Total de coches: 4
+        Coches con exceso de velocidad: 2
+        Velocidad máxima registrada: 68 km/h
+        💡 Usa un bucle while para pedir datos hasta recibir -1 y condicionales if para acumular los excesos de velocidad.*/
+
+        const VELOCIDAD_LIMITE = 45;
+        let maximaVelocidad = 0;
+        let cochesExceso = 0;
+        let totalCoches = 0;
+
+        // Pedimos la primera velocidad
+        let velocidadUsuario = parseInt(prompt("Introduce la velocidad del coche " + (totalCoches + 1) + " (-1 para terminar):"));
+
+        while (velocidadUsuario !== -1) {
+            totalCoches++;
+
+            if (velocidadUsuario > maximaVelocidad) {
+                maximaVelocidad = velocidadUsuario;
+            }
+
+            if (velocidadUsuario > VELOCIDAD_LIMITE) {
+                cochesExceso++;
+            }
+
+            velocidadUsuario = parseInt(prompt("Introduce la velocidad del coche " + (totalCoches + 1) + " (-1 para terminar):"));
+        }
+
+        console.log("Total coches: " + totalCoches);
+        console.log("Coches con exceso de velocidad: " + cochesExceso);
+        console.log("Velocidad máxima registrada: " + maximaVelocidad + " km/h");
+    </script>
+</body>
+
+</html>

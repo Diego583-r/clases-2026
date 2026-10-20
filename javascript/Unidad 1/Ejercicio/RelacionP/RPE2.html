@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* 2. Taller de Pintura de RamónRamón cobra 150€ por pintar un coche completo.Si el cliente pide un acabado especial(Custom), se suman 50€ extra.Crea un programa que pregunte cuántos coches van a pintar hoy.Para cada coche, solicita el nombre del dueño y si desea acabado especial(SI o NO).Al final, muestra:El total recaudado en el taller.Cuántos trabajos incluyeron acabado especial.🧪 Ejemplo:Número de coches a pintar: 3
+        
+        Coche 1 - Nombre: Flo
+        ¿Acabado especial ? (SI / NO) : NO
+        Coche 2 - Nombre: McQueen
+        ¿Acabado especial ? (SI / NO) : SI
+        Coche 3 - Nombre: Ramone
+        ¿Acabado especial ? (SI / NO) : SI
+        
+        Total recaudado: 550€
+        Coches con acabado especial: 2
+        💡 Usa un bucle for según la cantidad de coches indicada. */
+
+        const COSTE_PINTURA = 150;
+        const COSTE_ADICIONAL = 50;
+
+        let totalSuma = 0;
+        let totalRecaudadoEspecial = 0;
+        let contadorAcabadoEspecial = 0;
+
+        let cantidadCoches = Number(prompt("Introduce la cantidad de coches que serán pintados hoy:"));
+
+        for (let i = 0; i < cantidadCoches; i++) {
+            let nombreUsuario = prompt("Introduce el nombre del coche " + (i + 1) + ":");
+            let acabadoEspecial = prompt("¿Deseas un acabado especial (+50€)? (SI / NO):");
+
+            // Sumamos siempre el precio base al total general
+            totalSuma += COSTE_PINTURA;
+
+            // Comprobamos la respuesta del usuario
+            if (acabadoEspecial === "SI" || acabadoEspecial === "si") {
+                contadorAcabadoEspecial++;
+                totalRecaudadoEspecial += COSTE_ADICIONAL; // Acumulamos solo el extra
+                totalSuma += COSTE_ADICIONAL;             // Y se lo sumamos al total del día
+            }
+        }
+
+        console.log("Total recaudado: " + totalSuma + "€");
+        console.log("Total recaudado solo por acabados especiales: " + totalRecaudadoEspecial + "€");
+        console.log("Total coches con acabado especial: " + contadorAcabadoEspecial);
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
