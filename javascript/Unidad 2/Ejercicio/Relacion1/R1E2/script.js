@@ -1,0 +1,9 @@
+/* Crea un array vacío llamado colores .
+Añade los colores "rojo" , "verde" y "azul" al final del array y luego imprime el array. */
+
+let colores = []
+
+colores.push("rojo", "verde", "azul")
+
+console.log(colores);
+

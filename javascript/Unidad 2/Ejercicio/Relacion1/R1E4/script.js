@@ -1,0 +1,7 @@
+/* Crea un array llamado animales que contenga los elementos "perro" , "gato" .
+Añade "loro" y "tortuga" al inicio del array y luego imprime el array. */
+
+let animales = ["perro", "gato"]
+animales.unshift("loro", "tortuga")
+
+console.log(animales);

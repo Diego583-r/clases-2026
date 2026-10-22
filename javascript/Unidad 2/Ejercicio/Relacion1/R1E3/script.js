@@ -1,0 +1,9 @@
+/* Usando el array colores del ejercicio anterior, elimina el último color.
+Muestra el array resultante y el valor del color eliminado. */
+
+let colores = []
+
+colores.push("rojo", "verde", "azul")
+colores.pop()
+
+console.log(colores);

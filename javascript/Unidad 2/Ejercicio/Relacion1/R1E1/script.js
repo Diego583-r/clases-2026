@@ -1,1 +1,11 @@
-console.log("Hola");
+/* Crea un array llamado numeros que contenga los números [5, 10, 15, 20] .
+Imprime en la consola el primer y el último elemento accediendo directamente por su índice */
+
+let numeros = [5, 10, 15, 20]
+
+console.log(numeros.at(0));
+console.log(numeros.at(-1));
+
+
+
+

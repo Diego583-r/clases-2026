@@ -1,0 +1,9 @@
+/* Usando el array animales del ejercicio anterior, elimina el primer elemento.
+Muestra el array después de la eliminación y el valor del elemento eliminado. */
+
+
+let animales = ["perro", "gato"]
+animales.unshift("loro", "tortuga")
+animales.shift()
+
+console.log(animales);
