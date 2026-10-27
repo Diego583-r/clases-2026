@@ -12,7 +12,8 @@ let variableTemporal = array.at(0);
 array[0] = array[array.length - 1]; 
 array[array.length - 1] = variableTemporal;
 
-console.log(array); 
+alert(array);
+console.log(array);
 
 
 
