@@ -1,0 +1,962 @@
+{
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E6/script.js": {
+    "mtime": 1792159045.2356458,
+    "seen": 1793655665.018401,
+    "ast_hash": "1b89ac7bbfcc4f5a8a036fca59fecfd2",
+    "semantic_hash": "1b89ac7bbfcc4f5a8a036fca59fecfd2"
+  },
+  "javascript/Unidad 1/Teoria/ejemplos/Ejemplo1.js": {
+    "mtime": 1789599686.0,
+    "seen": 1793655665.018406,
+    "ast_hash": "f2af28d16d48bd0409bd56851b4eaa99",
+    "semantic_hash": "f2af28d16d48bd0409bd56851b4eaa99"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E1/script.js": {
+    "mtime": 1792689400.5374725,
+    "seen": 1793655665.0184078,
+    "ast_hash": "b38743f8f5b02d6eb232345b71e5f852",
+    "semantic_hash": "b38743f8f5b02d6eb232345b71e5f852"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E10/script.js": {
+    "mtime": 1793298840.4049654,
+    "seen": 1793655665.01841,
+    "ast_hash": "73448e97483e68740e679780acb83607",
+    "semantic_hash": "73448e97483e68740e679780acb83607"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E11/script.js": {
+    "mtime": 1793407123.9572582,
+    "seen": 1793655665.018411,
+    "ast_hash": "97a2725c69aa6a05f2b899fef818c325",
+    "semantic_hash": "97a2725c69aa6a05f2b899fef818c325"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E12/script.js": {
+    "mtime": 1793407123.95763,
+    "seen": 1793655665.018411,
+    "ast_hash": "de8a3fc44db5ad72d35f2b8b43f65607",
+    "semantic_hash": "de8a3fc44db5ad72d35f2b8b43f65607"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E13/script.js": {
+    "mtime": 1793407123.9580708,
+    "seen": 1793655665.018412,
+    "ast_hash": "4cf64f3f6d463263873a54ef9968ff25",
+    "semantic_hash": "4cf64f3f6d463263873a54ef9968ff25"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E14/script.js": {
+    "mtime": 1793213314.3761032,
+    "seen": 1793655665.018414,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E15/script.js": {
+    "mtime": 1793213314.3765452,
+    "seen": 1793655665.018414,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E16/script.js": {
+    "mtime": 1793213314.376988,
+    "seen": 1793655665.0184152,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E2/script.js": {
+    "mtime": 1792689400.5378315,
+    "seen": 1793655665.0184162,
+    "ast_hash": "0516ac44c89fd8787ed4053fa61b15db",
+    "semantic_hash": "0516ac44c89fd8787ed4053fa61b15db"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E3/script.js": {
+    "mtime": 1792689400.5381272,
+    "seen": 1793655665.018417,
+    "ast_hash": "8a40989dbfc36a78289d88fe9c875923",
+    "semantic_hash": "8a40989dbfc36a78289d88fe9c875923"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E4/script.js": {
+    "mtime": 1792689400.5384073,
+    "seen": 1793655665.0184178,
+    "ast_hash": "7c102140f7a20d33cb78030dead86ef0",
+    "semantic_hash": "7c102140f7a20d33cb78030dead86ef0"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E5/script.js": {
+    "mtime": 1792689400.5386722,
+    "seen": 1793655665.018419,
+    "ast_hash": "71fbf39d4e9b7cf9db2cb380eb7080a2",
+    "semantic_hash": "71fbf39d4e9b7cf9db2cb380eb7080a2"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E6/script.js": {
+    "mtime": 1792689400.5389385,
+    "seen": 1793655665.01842,
+    "ast_hash": "b939ffbc75172445caf707a41744600a",
+    "semantic_hash": "b939ffbc75172445caf707a41744600a"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E7/script.js": {
+    "mtime": 1792689400.5392008,
+    "seen": 1793655665.018421,
+    "ast_hash": "2869dcc7c51c16c17d0075a3d6361f05",
+    "semantic_hash": "2869dcc7c51c16c17d0075a3d6361f05"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E8/script.js": {
+    "mtime": 1793213314.3778324,
+    "seen": 1793655665.018421,
+    "ast_hash": "e7b427487fc7c7f86bab53136d9df6a9",
+    "semantic_hash": "e7b427487fc7c7f86bab53136d9df6a9"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E9.1/script.js": {
+    "mtime": 1793298840.4061148,
+    "seen": 1793655665.0184221,
+    "ast_hash": "78de95c4c643614e8bb77a4c1bf85472",
+    "semantic_hash": "78de95c4c643614e8bb77a4c1bf85472"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion1/R1E9/script.js": {
+    "mtime": 1793298840.4065924,
+    "seen": 1793655665.018423,
+    "ast_hash": "6a7fdc2176ea39587ebdcd2bfb9be9a0",
+    "semantic_hash": "6a7fdc2176ea39587ebdcd2bfb9be9a0"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E1/script.js": {
+    "mtime": 1793407123.9588165,
+    "seen": 1793655665.018424,
+    "ast_hash": "839d87d4dec201ceac74cc14768b3fdc",
+    "semantic_hash": "839d87d4dec201ceac74cc14768b3fdc"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E2/script.js": {
+    "mtime": 1793653700.9081547,
+    "seen": 1793655665.018425,
+    "ast_hash": "493449d31229df10ac00f4b0eaf66ea4",
+    "semantic_hash": "493449d31229df10ac00f4b0eaf66ea4"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E3/script.js": {
+    "mtime": 1793407123.9597466,
+    "seen": 1793655665.0184262,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E4/script.js": {
+    "mtime": 1793407123.9602132,
+    "seen": 1793655665.018427,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E5/script.js": {
+    "mtime": 1793407123.9606223,
+    "seen": 1793655665.018427,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E6/script.js": {
+    "mtime": 1793407123.9610395,
+    "seen": 1793655665.0184278,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E7/script.js": {
+    "mtime": 1793407123.9615755,
+    "seen": 1793655665.018429,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "javascript/Unidad 2/Ejercicio/Relacion2/R2E8/script.js": {
+    "mtime": 1793407123.9620922,
+    "seen": 1793655665.01843,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1793654344.6826184,
+    "seen": 1793655665.018431,
+    "ast_hash": "ec2dc0dc7bef63488889f34de2f5584d",
+    "semantic_hash": "ec2dc0dc7bef63488889f34de2f5584d"
+  },
+  "html/Clase 1/Clase1.html": {
+    "mtime": 1789595648.0,
+    "seen": 1793655665.018432,
+    "ast_hash": "e534f1a08b3359c83d467f3421439df6",
+    "semantic_hash": "e534f1a08b3359c83d467f3421439df6"
+  },
+  "html/Clase 1/a.txt": {
+    "mtime": 1789514828.0,
+    "seen": 1793655665.018432,
+    "ast_hash": "c2a828d27ec0c079824b78fe166ad67a",
+    "semantic_hash": "c2a828d27ec0c079824b78fe166ad67a"
+  },
+  "html/Clase 2/Clase 2.html": {
+    "mtime": 1789693294.0,
+    "seen": 1793655665.018433,
+    "ast_hash": "b0d43970a00efc420f93bf73d261fd37",
+    "semantic_hash": "b0d43970a00efc420f93bf73d261fd37"
+  },
+  "html/Clase 2/Clase2.5.html": {
+    "mtime": 1789697426.0,
+    "seen": 1793655665.018434,
+    "ast_hash": "878e222631fc8e52796096472f535c7e",
+    "semantic_hash": "878e222631fc8e52796096472f535c7e"
+  },
+  "html/Clase 2/Ejercicio1/Ejercicio.html": {
+    "mtime": 1789697422.0,
+    "seen": 1793655665.018435,
+    "ast_hash": "414bde49cea89cbd795b0c855dc1cfbb",
+    "semantic_hash": "414bde49cea89cbd795b0c855dc1cfbb"
+  },
+  "html/Clase 2/Ejercicio2/contacto.html": {
+    "mtime": 1789699554.0,
+    "seen": 1793655665.0184362,
+    "ast_hash": "53fec13ebe7dd47678f6bcc383935b38",
+    "semantic_hash": "53fec13ebe7dd47678f6bcc383935b38"
+  },
+  "html/Clase 2/Ejercicio2/empresa.html": {
+    "mtime": 1789699318.0,
+    "seen": 1793655665.0184371,
+    "ast_hash": "3ac31dd492ffcf8a1d86bf4810dc27fe",
+    "semantic_hash": "3ac31dd492ffcf8a1d86bf4810dc27fe"
+  },
+  "html/Clase 2/Ejercicio2/galeria.html": {
+    "mtime": 1789700194.0,
+    "seen": 1793655665.0184371,
+    "ast_hash": "ffe5435aee1528d9874570cbc67bd7a2",
+    "semantic_hash": "ffe5435aee1528d9874570cbc67bd7a2"
+  },
+  "html/Clase 2/Ejercicio2/index.html": {
+    "mtime": 1789699304.0,
+    "seen": 1793655665.0184379,
+    "ast_hash": "e247d9f49ec45bb5bd1a0272e470c68e",
+    "semantic_hash": "e247d9f49ec45bb5bd1a0272e470c68e"
+  },
+  "html/Clase 2/Ejercicio2/soporte.html": {
+    "mtime": 1789699314.0,
+    "seen": 1793655665.0184388,
+    "ast_hash": "af79b522ef05835b3f9941cd0e35496f",
+    "semantic_hash": "af79b522ef05835b3f9941cd0e35496f"
+  },
+  "html/Clase 3/Ejemplo1/empresa1.html": {
+    "mtime": 1790038716.0,
+    "seen": 1793655665.01844,
+    "ast_hash": "a0520944e87ae11cccf42ca2e2f8cd39",
+    "semantic_hash": "a0520944e87ae11cccf42ca2e2f8cd39"
+  },
+  "html/Clase 3/Ejemplo1/index.html": {
+    "mtime": 1790038524.0,
+    "seen": 1793655665.018441,
+    "ast_hash": "d7d36703815083de928a60a88a7a907d",
+    "semantic_hash": "d7d36703815083de928a60a88a7a907d"
+  },
+  "html/Clase 3/Ejercicio1/dise\u00f1o.html": {
+    "mtime": 1790042092.0,
+    "seen": 1793655665.018445,
+    "ast_hash": "72b5a1393d58861f7e681b0f769552e4",
+    "semantic_hash": "72b5a1393d58861f7e681b0f769552e4"
+  },
+  "html/Clase 3/Ejercicio1/lenguajes.html": {
+    "mtime": 1790041506.0,
+    "seen": 1793655665.018446,
+    "ast_hash": "7e46b54d0c33b9c418ea94c75e02bfdc",
+    "semantic_hash": "7e46b54d0c33b9c418ea94c75e02bfdc"
+  },
+  "html/Clase 3/Ejercicio1/principal.html": {
+    "mtime": 1790042330.0,
+    "seen": 1793655665.0184472,
+    "ast_hash": "ce15a7d730523537aa0a5a758cbb9f5e",
+    "semantic_hash": "ce15a7d730523537aa0a5a758cbb9f5e"
+  },
+  "html/Clase 4/ejercicio1.html": {
+    "mtime": 1792424814.9664955,
+    "seen": 1793655665.0184479,
+    "ast_hash": "45b6b1f85fc51da1cfcab8fa98088a5a",
+    "semantic_hash": "45b6b1f85fc51da1cfcab8fa98088a5a"
+  },
+  "html/Clase 5/1.html": {
+    "mtime": 1793043246.901033,
+    "seen": 1793655665.0184488,
+    "ast_hash": "a144eed97213219eec83d0701b8ffc43",
+    "semantic_hash": "a144eed97213219eec83d0701b8ffc43"
+  },
+  "html/Clase 6/index.html": {
+    "mtime": 1793298840.402441,
+    "seen": 1793655665.01845,
+    "ast_hash": "14cbc8a70ee4e392ab345a21dd8a19a0",
+    "semantic_hash": "14cbc8a70ee4e392ab345a21dd8a19a0"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion1/Ejercicio 4.html": {
+    "mtime": 1790033204.0,
+    "seen": 1793655665.018451,
+    "ast_hash": "2ee038cbca9c24fdbcd427e756d0caf4",
+    "semantic_hash": "2ee038cbca9c24fdbcd427e756d0caf4"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion1/Ejercicio1.html": {
+    "mtime": 1790029252.0,
+    "seen": 1793655665.018452,
+    "ast_hash": "229475abc8f2078c8cd08dde594588b7",
+    "semantic_hash": "229475abc8f2078c8cd08dde594588b7"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion1/Ejercicio2.html": {
+    "mtime": 1790031988.0,
+    "seen": 1793655665.018452,
+    "ast_hash": "0009072d4f52e3d8df17106a175fff22",
+    "semantic_hash": "0009072d4f52e3d8df17106a175fff22"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion1/Ejercicio3.html": {
+    "mtime": 1790032952.0,
+    "seen": 1793655665.018453,
+    "ast_hash": "66b29129340b38231c70f1b0d64a09b5",
+    "semantic_hash": "66b29129340b38231c70f1b0d64a09b5"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion1/Relacion1.md": {
+    "mtime": 1790028282.0,
+    "seen": 1793655665.018454,
+    "ast_hash": "b8a550cb69efc4e74483f0f89fb2153c",
+    "semantic_hash": "b8a550cb69efc4e74483f0f89fb2153c"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio1.html": {
+    "mtime": 1790135250.0,
+    "seen": 1793655665.018455,
+    "ast_hash": "660f524fede4a8b4667e06048e4f59c4",
+    "semantic_hash": "660f524fede4a8b4667e06048e4f59c4"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio10.html": {
+    "mtime": 1790181271.5901663,
+    "seen": 1793655665.018456,
+    "ast_hash": "09030561cce5bb67fa34a6202b96428d",
+    "semantic_hash": "09030561cce5bb67fa34a6202b96428d"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio11.html": {
+    "mtime": 1790181558.6674747,
+    "seen": 1793655665.018456,
+    "ast_hash": "c601a5045b8e47d4d5a27de712a94074",
+    "semantic_hash": "c601a5045b8e47d4d5a27de712a94074"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio2.html": {
+    "mtime": 1790135722.0,
+    "seen": 1793655665.0184572,
+    "ast_hash": "be269f688836441f97a8f3eefe7f584d",
+    "semantic_hash": "be269f688836441f97a8f3eefe7f584d"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio3.html": {
+    "mtime": 1790135624.0,
+    "seen": 1793655665.0184581,
+    "ast_hash": "001fb66d0bc8ef7c72df7c515e883e2f",
+    "semantic_hash": "001fb66d0bc8ef7c72df7c515e883e2f"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio4.html": {
+    "mtime": 1790179116.9226403,
+    "seen": 1793655665.0184588,
+    "ast_hash": "85dfeb7cf948f2b89cfeeaa634614c5f",
+    "semantic_hash": "85dfeb7cf948f2b89cfeeaa634614c5f"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio5.html": {
+    "mtime": 1790179318.5108972,
+    "seen": 1793655665.0184598,
+    "ast_hash": "eeb934773098e771e5174cda1d0735f9",
+    "semantic_hash": "eeb934773098e771e5174cda1d0735f9"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio6.html": {
+    "mtime": 1790179679.1954257,
+    "seen": 1793655665.018461,
+    "ast_hash": "013a48b23e08ad576921b7c0d7e4d168",
+    "semantic_hash": "013a48b23e08ad576921b7c0d7e4d168"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio7.html": {
+    "mtime": 1790180663.4902008,
+    "seen": 1793655665.018462,
+    "ast_hash": "d283e0b7fcac722322cb01f9d4342f6b",
+    "semantic_hash": "d283e0b7fcac722322cb01f9d4342f6b"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio8.html": {
+    "mtime": 1790180424.5139136,
+    "seen": 1793655665.018462,
+    "ast_hash": "8199d7870b8f0a38318ee8db7c55eeb7",
+    "semantic_hash": "8199d7870b8f0a38318ee8db7c55eeb7"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Ejercicio9.html": {
+    "mtime": 1790181209.3087249,
+    "seen": 1793655665.018463,
+    "ast_hash": "fc75acff028b1db20d8fcbcdc3f3827a",
+    "semantic_hash": "fc75acff028b1db20d8fcbcdc3f3827a"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion2/Relacion2.md": {
+    "mtime": 1790132250.0,
+    "seen": 1793655665.018464,
+    "ast_hash": "132e34bda48a9fb209c7130cf46d1ac1",
+    "semantic_hash": "132e34bda48a9fb209c7130cf46d1ac1"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/3-2/Relacion3-2.md": {
+    "mtime": 1790646082.0,
+    "seen": 1793655665.018465,
+    "ast_hash": "c08dba5792a5590ceeafb324e4c37f87",
+    "semantic_hash": "c08dba5792a5590ceeafb324e4c37f87"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E1.html": {
+    "mtime": 1790204828.0,
+    "seen": 1793655665.018466,
+    "ast_hash": "b1703166181113c4a975dc8ec0bbe9ca",
+    "semantic_hash": "b1703166181113c4a975dc8ec0bbe9ca"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E10.html": {
+    "mtime": 1790644718.0,
+    "seen": 1793655665.0184672,
+    "ast_hash": "8c5025a1d822fca4dcda071c91abfaa7",
+    "semantic_hash": "8c5025a1d822fca4dcda071c91abfaa7"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E11.html": {
+    "mtime": 1790640138.0,
+    "seen": 1793655665.0184672,
+    "ast_hash": "9d193b4f45a055d1c7e4c1693df24621",
+    "semantic_hash": "9d193b4f45a055d1c7e4c1693df24621"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E12.html": {
+    "mtime": 1790640138.0,
+    "seen": 1793655665.0184681,
+    "ast_hash": "63f0e83d264051db6d9860a0d4764b54",
+    "semantic_hash": "63f0e83d264051db6d9860a0d4764b54"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E13.html": {
+    "mtime": 1790640138.0,
+    "seen": 1793655665.018469,
+    "ast_hash": "c942f72e7656ce826e43618ad98e9616",
+    "semantic_hash": "c942f72e7656ce826e43618ad98e9616"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E14.html": {
+    "mtime": 1790640138.0,
+    "seen": 1793655665.0184698,
+    "ast_hash": "4e6f6be9de1b934f96cdbbc425c3aa1f",
+    "semantic_hash": "4e6f6be9de1b934f96cdbbc425c3aa1f"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E15.html": {
+    "mtime": 1790640138.0,
+    "seen": 1793655665.018471,
+    "ast_hash": "dbac35946c80361d98db8cd90dafe639",
+    "semantic_hash": "dbac35946c80361d98db8cd90dafe639"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E16.html": {
+    "mtime": 1790640138.0,
+    "seen": 1793655665.018471,
+    "ast_hash": "df2130d2f22f80bb87070b8365ec5aa6",
+    "semantic_hash": "df2130d2f22f80bb87070b8365ec5aa6"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E17.html": {
+    "mtime": 1790707963.6209233,
+    "seen": 1793655665.018472,
+    "ast_hash": "8a7c2dda6ae0cf0a531b836373fa648f",
+    "semantic_hash": "8a7c2dda6ae0cf0a531b836373fa648f"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E2.html": {
+    "mtime": 1790205850.0,
+    "seen": 1793655665.018473,
+    "ast_hash": "f51a1505709880e06aa78fe810f72763",
+    "semantic_hash": "f51a1505709880e06aa78fe810f72763"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E3.html": {
+    "mtime": 1790302566.0,
+    "seen": 1793655665.018474,
+    "ast_hash": "c4cebfa9d32de5b48391c99dddb8dfa2",
+    "semantic_hash": "c4cebfa9d32de5b48391c99dddb8dfa2"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E4.html": {
+    "mtime": 1790303294.0,
+    "seen": 1793655665.018475,
+    "ast_hash": "640b91e1e1e0d36d5f8a7ae40381d1cb",
+    "semantic_hash": "640b91e1e1e0d36d5f8a7ae40381d1cb"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E5.html": {
+    "mtime": 1790208216.0,
+    "seen": 1793655665.018475,
+    "ast_hash": "a03591202151bf8cdb03108822f09bef",
+    "semantic_hash": "a03591202151bf8cdb03108822f09bef"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E6.html": {
+    "mtime": 1790303030.0,
+    "seen": 1793655665.018476,
+    "ast_hash": "7bd3cbb261d77bef3b9ca0516304d790",
+    "semantic_hash": "7bd3cbb261d77bef3b9ca0516304d790"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E7.html": {
+    "mtime": 1790641338.0,
+    "seen": 1793655665.018477,
+    "ast_hash": "fbe72f0b8c4625ec690da47a27981487",
+    "semantic_hash": "fbe72f0b8c4625ec690da47a27981487"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E8.html": {
+    "mtime": 1790641558.0,
+    "seen": 1793655665.0184782,
+    "ast_hash": "855ab2ce3619e4269418568c9b4a5315",
+    "semantic_hash": "855ab2ce3619e4269418568c9b4a5315"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/R3E9.html": {
+    "mtime": 1790644152.0,
+    "seen": 1793655665.018479,
+    "ast_hash": "16b43c9306c2e4ee9daa2a926b549e3d",
+    "semantic_hash": "16b43c9306c2e4ee9daa2a926b549e3d"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion3/Relacion3.md": {
+    "mtime": 1790203232.0,
+    "seen": 1793655665.01848,
+    "ast_hash": "bcbdccc4bed57bf0cbb0a8cdc978fea3",
+    "semantic_hash": "bcbdccc4bed57bf0cbb0a8cdc978fea3"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion4/R4E1.html": {
+    "mtime": 1791250238.0,
+    "seen": 1793655665.0184808,
+    "ast_hash": "1bb481e8ea3bed9f27c18fe49aef1d16",
+    "semantic_hash": "1bb481e8ea3bed9f27c18fe49aef1d16"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion4/R4E2.html": {
+    "mtime": 1791250732.0,
+    "seen": 1793655665.018482,
+    "ast_hash": "b62235af0c31eac15ee2c00618bed0aa",
+    "semantic_hash": "b62235af0c31eac15ee2c00618bed0aa"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion4/Relacion4.md": {
+    "mtime": 1791246576.0,
+    "seen": 1793655665.018482,
+    "ast_hash": "ffd2f2f595095263908ab88988dc3d5f",
+    "semantic_hash": "ffd2f2f595095263908ab88988dc3d5f"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5.md": {
+    "mtime": 1791345156.0,
+    "seen": 1793655665.018483,
+    "ast_hash": "16a5e2c64026a38c58b36acf75a35144",
+    "semantic_hash": "16a5e2c64026a38c58b36acf75a35144"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E1.html": {
+    "mtime": 1791342590.0,
+    "seen": 1793655665.018485,
+    "ast_hash": "64086ae6c9322eefda323a75f7370594",
+    "semantic_hash": "64086ae6c9322eefda323a75f7370594"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E10.html": {
+    "mtime": 1791413888.0,
+    "seen": 1793655665.018486,
+    "ast_hash": "4b730b69e228a0fc67b1fe97a1a9d715",
+    "semantic_hash": "4b730b69e228a0fc67b1fe97a1a9d715"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E11.html": {
+    "mtime": 1791417040.0,
+    "seen": 1793655665.018486,
+    "ast_hash": "e73bbbbdd1ef7e7fb6d2d7bd4b974272",
+    "semantic_hash": "e73bbbbdd1ef7e7fb6d2d7bd4b974272"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E12.html": {
+    "mtime": 1791415336.0,
+    "seen": 1793655665.018487,
+    "ast_hash": "bed98abfc56f8b75589154dfc32c487e",
+    "semantic_hash": "bed98abfc56f8b75589154dfc32c487e"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E13.html": {
+    "mtime": 1791477374.5740407,
+    "seen": 1793655665.0184882,
+    "ast_hash": "e913fc822b49a8edddc2dbbf61e7eb66",
+    "semantic_hash": "e913fc822b49a8edddc2dbbf61e7eb66"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E14.html": {
+    "mtime": 1791477375.4313164,
+    "seen": 1793655665.0184891,
+    "ast_hash": "893550aceb7fd1583e6e09b4a9c2f383",
+    "semantic_hash": "893550aceb7fd1583e6e09b4a9c2f383"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E15.html": {
+    "mtime": 1791479271.4878175,
+    "seen": 1793655665.01849,
+    "ast_hash": "455b6adbafd3d912ad6a4e4e4b426503",
+    "semantic_hash": "455b6adbafd3d912ad6a4e4e4b426503"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E16.html": {
+    "mtime": 1791480855.592565,
+    "seen": 1793655665.0184908,
+    "ast_hash": "8a6dee72606e0c70381eff84a0e250f9",
+    "semantic_hash": "8a6dee72606e0c70381eff84a0e250f9"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E17.html": {
+    "mtime": 1791481679.3807364,
+    "seen": 1793655665.018492,
+    "ast_hash": "735e1c8cc1c4b041ae2e95d2573aeb25",
+    "semantic_hash": "735e1c8cc1c4b041ae2e95d2573aeb25"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E18.html": {
+    "mtime": 1791482076.5140934,
+    "seen": 1793655665.018492,
+    "ast_hash": "8c6f8464853445758b03aace40829b62",
+    "semantic_hash": "8c6f8464853445758b03aace40829b62"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E19.html": {
+    "mtime": 1791727513.7350817,
+    "seen": 1793655665.018493,
+    "ast_hash": "43b46c004fb0dc559799df44dbb1ae01",
+    "semantic_hash": "43b46c004fb0dc559799df44dbb1ae01"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E2.html": {
+    "mtime": 1791340252.0,
+    "seen": 1793655665.018494,
+    "ast_hash": "e464ce967750c596ac861d3483c5cca4",
+    "semantic_hash": "e464ce967750c596ac861d3483c5cca4"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E20.html": {
+    "mtime": 1791727513.7343338,
+    "seen": 1793655665.018495,
+    "ast_hash": "03c2f349294b89532f17b98ab222025d",
+    "semantic_hash": "03c2f349294b89532f17b98ab222025d"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E21.html": {
+    "mtime": 1791727513.73368,
+    "seen": 1793655665.018496,
+    "ast_hash": "e922e56802acd3698d9c81de18e02361",
+    "semantic_hash": "e922e56802acd3698d9c81de18e02361"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E22.html": {
+    "mtime": 1791727513.7328184,
+    "seen": 1793655665.018497,
+    "ast_hash": "6ff15f56d74ba52d8f29076631c05de2",
+    "semantic_hash": "6ff15f56d74ba52d8f29076631c05de2"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E23.html": {
+    "mtime": 1791727513.7318287,
+    "seen": 1793655665.018497,
+    "ast_hash": "ec4e5b40f7e677a016914ab2a68138de",
+    "semantic_hash": "ec4e5b40f7e677a016914ab2a68138de"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E24.html": {
+    "mtime": 1791730362.2615833,
+    "seen": 1793655665.018498,
+    "ast_hash": "7bbefd22c3d41b51cfc5b87dacc6fdf9",
+    "semantic_hash": "7bbefd22c3d41b51cfc5b87dacc6fdf9"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E25.html": {
+    "mtime": 1791730523.8347516,
+    "seen": 1793655665.0184991,
+    "ast_hash": "f8926565092c2d1b2b90c58d6f789a6e",
+    "semantic_hash": "f8926565092c2d1b2b90c58d6f789a6e"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E26.html": {
+    "mtime": 1791737804.6550379,
+    "seen": 1793655665.0185,
+    "ast_hash": "cf5c422fcfc62e8137c5abc1bd761d00",
+    "semantic_hash": "cf5c422fcfc62e8137c5abc1bd761d00"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E27.html": {
+    "mtime": 1791759084.3895838,
+    "seen": 1793655665.018501,
+    "ast_hash": "09b7e8e62df82eeb3976f226d7ce6116",
+    "semantic_hash": "09b7e8e62df82eeb3976f226d7ce6116"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E28.html": {
+    "mtime": 1791836447.6305945,
+    "seen": 1793655665.018502,
+    "ast_hash": "02bba5609f59df179788ecafa2e1ff74",
+    "semantic_hash": "02bba5609f59df179788ecafa2e1ff74"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E3.html": {
+    "mtime": 1791340658.0,
+    "seen": 1793655665.018502,
+    "ast_hash": "535a6ca1a5e075a672cae40f0a106ddd",
+    "semantic_hash": "535a6ca1a5e075a672cae40f0a106ddd"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E4.html": {
+    "mtime": 1791342586.0,
+    "seen": 1793655665.018503,
+    "ast_hash": "e879fe9ce9812a7150e20f8266b7f992",
+    "semantic_hash": "e879fe9ce9812a7150e20f8266b7f992"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E5.html": {
+    "mtime": 1791341834.0,
+    "seen": 1793655665.018504,
+    "ast_hash": "3379c7077707843b7efaf6458e6db685",
+    "semantic_hash": "3379c7077707843b7efaf6458e6db685"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E6.html": {
+    "mtime": 1791342572.0,
+    "seen": 1793655665.0185049,
+    "ast_hash": "5158cf0c95ec43910b24bb764c40800c",
+    "semantic_hash": "5158cf0c95ec43910b24bb764c40800c"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E7.html": {
+    "mtime": 1791342934.0,
+    "seen": 1793655665.018506,
+    "ast_hash": "9c0c0878a7ddd75c4738394caf73d361",
+    "semantic_hash": "9c0c0878a7ddd75c4738394caf73d361"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E8.html": {
+    "mtime": 1791345178.0,
+    "seen": 1793655665.018507,
+    "ast_hash": "4a83d90bc5a77fe3ff4efa0a40f8ec69",
+    "semantic_hash": "4a83d90bc5a77fe3ff4efa0a40f8ec69"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion5/R5E9.html": {
+    "mtime": 1791410536.0,
+    "seen": 1793655665.018507,
+    "ast_hash": "4e76fc5d7b08e1485e7494b55332ec89",
+    "semantic_hash": "4e76fc5d7b08e1485e7494b55332ec89"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6.md": {
+    "mtime": 1791836487.7403836,
+    "seen": 1793655665.018508,
+    "ast_hash": "3fd04265d4a2a348e96f40c97dc4a1e1",
+    "semantic_hash": "3fd04265d4a2a348e96f40c97dc4a1e1"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E1.html": {
+    "mtime": 1792159045.2350047,
+    "seen": 1793655665.0185091,
+    "ast_hash": "f2f6259f58e08c46c0b9fa44c342dd27",
+    "semantic_hash": "f2f6259f58e08c46c0b9fa44c342dd27"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E2.html": {
+    "mtime": 1791988062.642531,
+    "seen": 1793655665.01851,
+    "ast_hash": "eb040086c988b0b1a5a87bfad97a5e56",
+    "semantic_hash": "eb040086c988b0b1a5a87bfad97a5e56"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E3.html": {
+    "mtime": 1791988080.343799,
+    "seen": 1793655665.018511,
+    "ast_hash": "fc120701983e42845655f6eb8819dfff",
+    "semantic_hash": "fc120701983e42845655f6eb8819dfff"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E4.html": {
+    "mtime": 1792159045.2352633,
+    "seen": 1793655665.0185118,
+    "ast_hash": "63e8557ec6efc57fb1cb28039afebb34",
+    "semantic_hash": "63e8557ec6efc57fb1cb28039afebb34"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E5.html": {
+    "mtime": 1791988094.670333,
+    "seen": 1793655665.0185118,
+    "ast_hash": "86f787afb385eeeb64e0fd66e81a6b29",
+    "semantic_hash": "86f787afb385eeeb64e0fd66e81a6b29"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E6/R6E6.html": {
+    "mtime": 1792085574.3128045,
+    "seen": 1793655665.018513,
+    "ast_hash": "5b8de890f759cef6381797d03d88f1a3",
+    "semantic_hash": "5b8de890f759cef6381797d03d88f1a3"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E7.html": {
+    "mtime": 1792159045.2358248,
+    "seen": 1793655665.018514,
+    "ast_hash": "3fd05b6a4642232f5a6f5fded06ac639",
+    "semantic_hash": "3fd05b6a4642232f5a6f5fded06ac639"
+  },
+  "javascript/Unidad 1/Ejercicio/Relacion6/R6E8.html": {
+    "mtime": 1792348986.3570516,
+    "seen": 1793655665.0185149,
+    "ast_hash": "9960414cf8641b0f0d5a738ef80cb862",
+    "semantic_hash": "9960414cf8641b0f0d5a738ef80cb862"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionCars/Cars.md": {
+    "mtime": 1792424943.0180063,
+    "seen": 1793655665.018516,
+    "ast_hash": "b04eec47a9413ad6ce4d896198c05441",
+    "semantic_hash": "b04eec47a9413ad6ce4d896198c05441"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionCars/RCE1.html": {
+    "mtime": 1792426835.8762689,
+    "seen": 1793655665.018516,
+    "ast_hash": "e8b7a21524f7d5602f7af3a460528d5b",
+    "semantic_hash": "e8b7a21524f7d5602f7af3a460528d5b"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionCars/RCE2.html": {
+    "mtime": 1792430159.8001688,
+    "seen": 1793655665.018517,
+    "ast_hash": "f08888704ede9c12f126cffd861e3a1a",
+    "semantic_hash": "f08888704ede9c12f126cffd861e3a1a"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionCars/RCE3.html": {
+    "mtime": 1792431167.0064478,
+    "seen": 1793655665.018518,
+    "ast_hash": "7f79fb53cac1c7b2546632e6b2d53fb4",
+    "semantic_hash": "7f79fb53cac1c7b2546632e6b2d53fb4"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionCars/RCE4.html": {
+    "mtime": 1792434762.8294296,
+    "seen": 1793655665.018519,
+    "ast_hash": "834f36f6dc777cb97fdc4042a88f3ca5",
+    "semantic_hash": "834f36f6dc777cb97fdc4042a88f3ca5"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionCars/RCE5.html": {
+    "mtime": 1792434669.1540759,
+    "seen": 1793655665.01852,
+    "ast_hash": "28fe46917d83ca741d13be3b31b28f32",
+    "semantic_hash": "28fe46917d83ca741d13be3b31b28f32"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionP/Practica.md": {
+    "mtime": 1792689400.53653,
+    "seen": 1793655665.018521,
+    "ast_hash": "8f1f4503353919bb746e5fd4141580df",
+    "semantic_hash": "8f1f4503353919bb746e5fd4141580df"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionP/RPE1.html": {
+    "mtime": 1792689400.5366588,
+    "seen": 1793655665.018521,
+    "ast_hash": "631be22af541b34eabebf3d38551c73c",
+    "semantic_hash": "631be22af541b34eabebf3d38551c73c"
+  },
+  "javascript/Unidad 1/Ejercicio/RelacionP/RPE2.html": {
+    "mtime": 1792689400.5368044,
+    "seen": 1793655665.018522,
+    "ast_hash": "9a6050bcf232cd1dac0f330ae8d7b098",
+    "semantic_hash": "9a6050bcf232cd1dac0f330ae8d7b098"
+  },
+  "javascript/Unidad 1/Teoria/ejemplos/Ejemplo1.html": {
+    "mtime": 1789601122.0,
+    "seen": 1793655665.018523,
+    "ast_hash": "cd4ca1026a004b53331e4126843a5ade",
+    "semantic_hash": "cd4ca1026a004b53331e4126843a5ade"
+  },
+  "javascript/Unidad 1/Teoria/ejemplos/plantilla_examen.md": {
+    "mtime": 1792435186.9685,
+    "seen": 1793655665.018524,
+    "ast_hash": "317c66839e8784804b6b69aef921dece",
+    "semantic_hash": "317c66839e8784804b6b69aef921dece"
+  },
+  "javascript/Unidad 1/Teoria/plantilla_examenbackup.md": {
+    "mtime": 1792435638.5084758,
+    "seen": 1793655665.018525,
+    "ast_hash": "3035242729c995e6019e2f05cceaf912",
+    "semantic_hash": "3035242729c995e6019e2f05cceaf912"
+  },
+  "html/Clase 3/Ejercicio1/Material/html5-css3.pdf": {
+    "mtime": 1571184520.0,
+    "seen": 1793655665.018525,
+    "ast_hash": "651064fa5bf5d74caaaf537e490b7766",
+    "semantic_hash": "651064fa5bf5d74caaaf537e490b7766"
+  },
+  "html/Clase 3/Ejercicio1/Material/javascript.pdf": {
+    "mtime": 1571184562.0,
+    "seen": 1793655665.0185258,
+    "ast_hash": "557cb772020704f25ab85a649b663661",
+    "semantic_hash": "557cb772020704f25ab85a649b663661"
+  },
+  "html/Clase 3/Ejercicio1/Material/marketing.pdf": {
+    "mtime": 1571184680.0,
+    "seen": 1793655665.018527,
+    "ast_hash": "de407280e661848a12420811e088496f",
+    "semantic_hash": "de407280e661848a12420811e088496f"
+  },
+  "html/Clase 3/Ejercicio1/Material/php.pdf": {
+    "mtime": 1571184588.0,
+    "seen": 1793655665.018528,
+    "ast_hash": "d9ea3af52018e7d2c0c2ac3af9a35f95",
+    "semantic_hash": "d9ea3af52018e7d2c0c2ac3af9a35f95"
+  },
+  "html/Clase 3/Ejercicio1/Material/prestashop.pdf": {
+    "mtime": 1571184630.0,
+    "seen": 1793655665.018529,
+    "ast_hash": "07d2cb863c364059774f4dc45de59943",
+    "semantic_hash": "07d2cb863c364059774f4dc45de59943"
+  },
+  "html/Clase 3/Ejercicio1/Material/ui-ux.pdf": {
+    "mtime": 1571183426.0,
+    "seen": 1793655665.0185301,
+    "ast_hash": "eb37546160cc21af492574ed107f77b3",
+    "semantic_hash": "eb37546160cc21af492574ed107f77b3"
+  },
+  "html/Clase 3/Ejercicio1/Material/wordpress.pdf": {
+    "mtime": 1571184608.0,
+    "seen": 1793655665.018531,
+    "ast_hash": "80fb806a3c947e645de78dd7e3430847",
+    "semantic_hash": "80fb806a3c947e645de78dd7e3430847"
+  },
+  "javascript/Unidad 2/Teoria/R1_Arrays_Basicos.pdf": {
+    "mtime": 1792689400.5400417,
+    "seen": 1793655665.018531,
+    "ast_hash": "2505764e3c477e652fc481e754d76876",
+    "semantic_hash": "2505764e3c477e652fc481e754d76876"
+  },
+  "javascript/Unidad 2/Teoria/R2_Arrays_Aplicados.pdf": {
+    "mtime": 1792689400.5404375,
+    "seen": 1793655665.018532,
+    "ast_hash": "b36c0242a87ba4013740d16a5520c9e9",
+    "semantic_hash": "b36c0242a87ba4013740d16a5520c9e9"
+  },
+  "html/Clase 1/Img/logo.png": {
+    "mtime": 1789514176.0,
+    "seen": 1793655665.0185332,
+    "ast_hash": "2592758a8a6041251d94efcd8f765cce",
+    "semantic_hash": "2592758a8a6041251d94efcd8f765cce"
+  },
+  "html/Clase 2/S_SDG-goals_icons-individual-rgb-02.png": {
+    "mtime": 1789693162.0,
+    "seen": 1793655665.018534,
+    "ast_hash": "36ae2d9875fef98a94303e519a9601a1",
+    "semantic_hash": "36ae2d9875fef98a94303e519a9601a1"
+  },
+  "html/Clase 2/logoMobile.png": {
+    "mtime": 1789699394.0,
+    "seen": 1793655665.018535,
+    "ast_hash": "a6d52e6fdafe5dafca1a9dcd93363c20",
+    "semantic_hash": "a6d52e6fdafe5dafca1a9dcd93363c20"
+  },
+  "html/Clase 3/Ejemplo1/arrow.png": {
+    "mtime": 1790037756.0,
+    "seen": 1793655665.0185359,
+    "ast_hash": "54025ab7ede921fb0d51ba76c0f6ed1a",
+    "semantic_hash": "54025ab7ede921fb0d51ba76c0f6ed1a"
+  },
+  "html/Clase 3/Ejercicio1/Material/html-css3.png": {
+    "mtime": 1571055188.0,
+    "seen": 1793655665.018537,
+    "ast_hash": "ce99a1c9bdd215c2e30bfc0864c95f57",
+    "semantic_hash": "ce99a1c9bdd215c2e30bfc0864c95f57"
+  },
+  "html/Clase 3/Ejercicio1/Material/javascript.png": {
+    "mtime": 1571054576.0,
+    "seen": 1793655665.018537,
+    "ast_hash": "f3770484a6d95d061ca72020654728d8",
+    "semantic_hash": "f3770484a6d95d061ca72020654728d8"
+  },
+  "html/Clase 3/Ejercicio1/Material/logo.png": {
+    "mtime": 1571181852.0,
+    "seen": 1793655665.018538,
+    "ast_hash": "055867b54c4242a9681f40539e7613bf",
+    "semantic_hash": "055867b54c4242a9681f40539e7613bf"
+  },
+  "html/Clase 3/Ejercicio1/Material/marketing.png": {
+    "mtime": 1571054358.0,
+    "seen": 1793655665.018539,
+    "ast_hash": "d33e7e655e5d081e5efdddc846e0ceb9",
+    "semantic_hash": "d33e7e655e5d081e5efdddc846e0ceb9"
+  },
+  "html/Clase 3/Ejercicio1/Material/php-mysql.png": {
+    "mtime": 1571054504.0,
+    "seen": 1793655665.0185401,
+    "ast_hash": "b10e2050396d343eed21d18d22fa694d",
+    "semantic_hash": "b10e2050396d343eed21d18d22fa694d"
+  },
+  "html/Clase 3/Ejercicio1/Material/prestashop.png": {
+    "mtime": 1571054850.0,
+    "seen": 1793655665.018541,
+    "ast_hash": "60620edbdc9be2aff298af208dd417a9",
+    "semantic_hash": "60620edbdc9be2aff298af208dd417a9"
+  },
+  "html/Clase 3/Ejercicio1/Material/ui-ux.jpg": {
+    "mtime": 1571054090.0,
+    "seen": 1793655665.018541,
+    "ast_hash": "c322e9ebb78c5d13caa7167c405b04e0",
+    "semantic_hash": "c322e9ebb78c5d13caa7167c405b04e0"
+  },
+  "html/Clase 3/Ejercicio1/Material/ui-ux.png": {
+    "mtime": 1571054108.0,
+    "seen": 1793655665.018542,
+    "ast_hash": "d60c19386ca2fa773485636ceba87201",
+    "semantic_hash": "d60c19386ca2fa773485636ceba87201"
+  },
+  "html/Clase 3/Ejercicio1/Material/wordpress.png": {
+    "mtime": 1571054734.0,
+    "seen": 1793655665.018543,
+    "ast_hash": "02fed35db100380940c31a2bf6b3be76",
+    "semantic_hash": "02fed35db100380940c31a2bf6b3be76"
+  },
+  "html/Clase 4/Material/NexusAi.jpeg": {
+    "mtime": 1792424814.965772,
+    "seen": 1793655665.0185442,
+    "ast_hash": "c3494c7619b16da35d2d54212f79c9f7",
+    "semantic_hash": "c3494c7619b16da35d2d54212f79c9f7"
+  },
+  "html/Clase 4/Material/Robot.png": {
+    "mtime": 1792424814.966055,
+    "seen": 1793655665.018545,
+    "ast_hash": "158ceb4283ff3ca24a8d4a175d7b2651",
+    "semantic_hash": "158ceb4283ff3ca24a8d4a175d7b2651"
+  },
+  "html/Clase 6/material/knight.jpeg": {
+    "mtime": 1793298840.4038897,
+    "seen": 1793655665.0185459,
+    "ast_hash": "d61197036ec37e41a4c6bc7636c51987",
+    "semantic_hash": "d61197036ec37e41a4c6bc7636c51987"
+  }
+}
