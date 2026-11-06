@@ -64,7 +64,7 @@ do {
     compraUsuario = prompt(`Que te intesaria comprar?
 Productos: \n ${productosAlmacen.join(separador)} \n FIN para terminar`)
 
-    console.log(`Resumen de la compra: \n Productos elegidos: ${productosTotales}`)
+    console.log(`Resumen de la compra: \n Productos elegidos: ${productosTotales.join(separador)}`)
 
 } while (compraUsuario !== "FIN")
 
