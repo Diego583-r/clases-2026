@@ -12,4 +12,21 @@ que se elija la opción de salir. */
 titulosLibros = [];
 cantidadesLibros = [];
 
-let opcionUsuario;
+let añadirLibro = prompt("Ingresa el titulo del libro que quieras añadir:")
+let cantidadLibro = Number(prompt("Ingresa la cantidad de libros:"))
+
+cantidadesLibros.push(cantidadLibro)
+titulosLibros.push(añadirLibro)
+
+let cambiarCantidad = Number(prompt("Ingresa la cantidad nueva de tu libro:"))
+
+const ultimoIndice = cantidadesLibros.length - 1;
+
+if (ultimoIndice >= 0) {
+    cantidadesLibros[ultimoIndice] = cambiarCantidad;
+}
+
+console.log("Libros:", titulosLibros);
+console.log("Cantidades:", cantidadesLibros);
+
+
