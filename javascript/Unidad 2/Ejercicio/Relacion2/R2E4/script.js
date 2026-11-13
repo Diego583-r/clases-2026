@@ -9,24 +9,45 @@ Salir del programa.
 El programa debe actualizar el inventario según las acciones del usuario y seguir ejecutándose hasta
 que se elija la opción de salir. */
 
-titulosLibros = [];
-cantidadesLibros = [];
+let titulosLibros = [];
+let cantidadesLibros = [];
+let indiceProducto;
+let cantidadLibro;
 
-let añadirLibro = prompt("Ingresa el titulo del libro que quieras añadir:")
-let cantidadLibro = Number(prompt("Ingresa la cantidad de libros:"))
+let opcion = Number(prompt(
+    `1 para añadir un libro (con su cantidad).\n 2 para actualizar la cantidad de un libro existente.\n 3 para ver el inventario completo, con titulo y cantidad de cada libro.\n 4 para salir del programa.`
+));
+do {
+if (opcion === 1) {
+    let addLibro = prompt("Ingresa el titulo del libro que quieras añadir:");
+    cantidadLibro = Number(prompt("Ingresa la cantidad de libros:"));
+    cantidadesLibros.push(cantidadLibro);
+    titulosLibros.push(addLibro);
+}
+console.log(`Tienes ${cantidadesLibros} de tu libro: ${titulosLibros}`);
 
-cantidadesLibros.push(cantidadLibro)
-titulosLibros.push(añadirLibro)
+// PASO 2: Actualizar buscando el índice real
+if (opcion === 2) {
+    let libroABuscar = prompt("Ingresa el título del libro que quieres actualizar:");
+    // Buscamos el índice ahora que ya hay libros en el array
+    indiceProducto = titulosLibros.indexOf(libroABuscar);
 
-let cambiarCantidad = Number(prompt("Ingresa la cantidad nueva de tu libro:"))
-
-const ultimoIndice = cantidadesLibros.length - 1;
-
-if (ultimoIndice >= 0) {
-    cantidadesLibros[ultimoIndice] = cambiarCantidad;
+    if (indiceProducto !== -1) {
+        let cambiarCantidad = Number(prompt("Ingresa la cantidad nueva de tu libro:"));
+        cantidadesLibros[indiceProducto] = cambiarCantidad;
+        console.log(`Tienes ${cantidadesLibros[indiceProducto]} de tu libro: ${titulosLibros[indiceProducto]}`);
+    } else {
+        console.log("No se encontró ese libro.");
+    }
 }
 
-console.log("Libros:", titulosLibros);
-console.log("Cantidades:", cantidadesLibros);
+if (opcion === 3) {
+    // Si hay al menos un libro, usamos la posición 0
+    console.log(`Libros totales: ${titulosLibros[0]} * ${cantidadesLibros[0]}`);
+}
+opcion = Number(prompt(
+    `1 para añadir un libro (con su cantidad).\n 2 para actualizar la cantidad de un libro existente.\n 3 para ver el inventario completo, con titulo y cantidad de cada libro.\n 4 para salir del programa.`
+));
+} while (opcion !== 4)
 
 

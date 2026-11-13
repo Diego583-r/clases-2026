@@ -8,7 +8,7 @@ Salir del programa.
 El programa debe ejecutarse hasta que el usuario elija la opción de salir. */
 
 const NUM_SEMANA = 7
-let diaSemana = ""
+let diaSemana = []
 let temperaturasSemana = []
 //diaEspecifico > NUM_SEMANA of diaSemana
 //let i = 0; i < NUM_SEMANA; i++
@@ -34,22 +34,14 @@ do {
 4 para salir del programa.`
     ))
     if (opcion == 1) {
-        let temperaturaMaxima = temperaturasSemana[0]
+        let temperaturaMaxima = Math.max(...temperaturasSemana)
+        // let indiceMax = temperaturasSemana.indexOf(temperaturaMaxima);
+        // let DiaMax = diaSemana[indiceMax];
 
-        for (const temperatura of temperaturasSemana) {
-            if (temperatura > temperaturaMaxima) {
-                temperaturaMaxima = temperatura
-            }
-        }
         console.log(`Temperatura maxima: ${temperaturaMaxima}`);
     } else if (opcion == 2) {
-        let temperaturaMinima = temperaturasSemana[0]
+        let temperaturaMinima = Math.min(...temperaturasSemana)
 
-        for (const temperatura of temperaturasSemana) {
-            if (temperatura < temperaturaMinima) {
-                temperaturaMinima = temperatura
-            }
-        }
         console.log(`Temperatura minima: ${temperaturaMinima}`);
     } else if (opcion == 3) {
         let temperaturaTotal = 0;
