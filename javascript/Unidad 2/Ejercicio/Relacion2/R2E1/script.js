@@ -35,8 +35,6 @@ do {
     ))
     if (opcion == 1) {
         let temperaturaMaxima = Math.max(...temperaturasSemana)
-        // let indiceMax = temperaturasSemana.indexOf(temperaturaMaxima);
-        // let DiaMax = diaSemana[indiceMax];
 
         console.log(`Temperatura maxima: ${temperaturaMaxima}`);
     } else if (opcion == 2) {

@@ -26,7 +26,7 @@ if (opcion === 1) {
 }
 console.log(`Tienes ${cantidadesLibros} de tu libro: ${titulosLibros}`);
 
-// PASO 2: Actualizar buscando el índice real
+//buscando el índice
 if (opcion === 2) {
     let libroABuscar = prompt("Ingresa el título del libro que quieres actualizar:");
     // Buscamos el índice ahora que ya hay libros en el array
