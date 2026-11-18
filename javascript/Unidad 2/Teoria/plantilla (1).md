@@ -849,6 +849,14 @@ if (!minaExplota) {
 ```
 
 ---
+```javascript
+let turno = 1
+if (turno == 1) {
+    turno = 2
+} else {
+    turno = 1
+}
+```
 
 ## 10. REFERENCIA RÁPIDA DE MÉTODOS UTILIZADOS
 
@@ -876,5 +884,6 @@ if (!minaExplota) {
 | `numero.toFixed(2)` | Mostrar dos decimales |
 | `array.forEach((elemento) => {...})` | Recorrer elementos (como en R8E8) |
 | `Math.floor(Math.random() * 10)` | Obtener un índice aleatorio del 0 al 9 |
+| `Math.floor(Math.random() * (max - min + 1) + min)` | Obtener un numero aleatorio ente min y max |
 
 **Recordatorio para el examen:** conserva la misma posición entre arrays paralelos, busca el índice antes de consultar un valor asociado y adapta únicamente los fragmentos que necesites idiota.
